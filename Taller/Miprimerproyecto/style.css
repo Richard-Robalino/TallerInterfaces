@@ -1,0 +1,33 @@
+.cabecera{
+  background: gray;
+}
+.logo{
+  border: 1px solid black;
+  border-radius: 50%;
+}
+nav{
+  background: rgb(184, 241, 184);
+}
+.container{
+  background: pink;
+}
+
+.productos{
+  background: yellow;
+}
+article{
+  background: rgb(110, 110, 250);
+}
+
+.img-prod{
+  width:200px;
+  height: 100px;
+
+}
+.columna1{
+  background: rgb(241, 228, 230);
+  border: 1px solid red;
+}
+footer{
+  background: gray;
+}

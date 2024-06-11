@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Alvstalex</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #ddd;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .col-md-4 {
+      width: 30%;
+      margin-bottom: 20px;
+    }
+
+    .product {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .product h3 {
+      margin-top: 10px;
+    }
+
+    .product p {
+      margin-bottom: 10px;
+    }
+
+    .product .price {
+      font-weight: bold;
+    }
+
+    .social-icons {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      color: #333;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .social-icons i {
+      font-size: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .btn {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #555;
+    }
+
+    .offer {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Alvstalex</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Quienes somos</a></li>
+      <li><a href="#">Donde estamos</a></li>
+      <li><a href="#">Comunicate</a></li>
+      <li><input type="text" placeholder="Buscar" /> <button class="btn">Buscar</button></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/camiseta1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/camiseta2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/camiseta3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <h2>Gran oferta</h2>
+      </div>
+      <div class="col-md-8">
+        <div class="offer">
+          <h2>GRANDES OFERTAS</h2>
+          <p>Grandes descuentos por el día del padre ven todo el mes de junio tenemos un descuento del 30% en mercadería seleccionada y del 20% en todo el almacén.</p>
+          <ul>
+            <li>Camisas -20%</li>
+            <li>Pantalones -30%</li>
+            <li>Corbatas-30%</li>
+          </ul>
+        </div>
+        <div class="offer">
+          <h2>EVENTOS</h2>
+          <p>Domingo 15 de junio se presentarán artistas invitados este domingo para celebrar en grande al padre</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="product">
+          <img src="images/camiseta1.jpg" alt="Camiseta 1">
+          <h3>Camiseta Selección</h3>
+          <p class="price">$865-545</p>
+          <p>Patrocinado por Alvstale</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product">
+          <img src="images/camiseta2.jpg" alt="Camiseta 2">
+          <h3>Camista Selección</h3>
+          <p class="price">$665-545</p>
+          <p>Patrocinado por Alvstale</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product">
+          <img src="images/camiseta3.jpg" alt="Camiseta 3">
+          <h3>Camista Selección</h3>
+          <p class="price">$665-545</p>
+          <p>Patrocinado por Alvstalex</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="product">
+          <img src="images/falda1.jpg" alt="Falda 1">
+          <h3>Falda pantalón</h3>
+          <p>Falda beige con blusa café</p>
+          <p class="price">$45</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product">
+          <img src="images/falda2.jpg" alt="Falda 2">
+          <h3>Falda pantalón</h3>
+          <p>Falda beige con blusa café</p>
+          <p class="price">$45</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product">
+          <img src="images/falda3.jpg" alt="Falda 3">
+          <h3>Falda pantalón</h3>
+          <p>Falda beige con blusa café</p>
+          <p class="price">$45</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="social-icons">
+      <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>info@epn.edu.ec</p>
+    <p>derechos reservados</p>
+    <p>Quito - Ecuador</p>
+  </footer>
+
+</body>
+</html>
